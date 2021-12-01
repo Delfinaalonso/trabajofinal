@@ -1,0 +1,166 @@
+*{padding: 0; margin: 0;} 
+
+html {scroll-behavior: smooth;   }
+
+.header {
+    position: relative;
+    background-image: url(imagenes/section-image-4.jpg);
+    background-position:center center ;
+    background-size: cover;
+    height: 430px;
+     }
+
+body { background-color: blanchedalmond;font-family:'oswald' , sans-serif;
+    }
+
+.bg1 {color:#fff}
+.bg2 {color:   #11bbb5;;}
+.bg3 {color: pink;}
+.container-fluid {padding: 0; margin: 0;}
+
+.navbar-light .navbar-nav .nav-link {color: white;transition-timing-function: ease; 
+    transition-property: all; transition: 1s; font-weight: bold;}
+.navbar-light .navbar-nav .nav-link:hover {color:  #11bbb5;transform: scale(1.2, 1.2);}
+
+.navbar-light .navbar-toggler {border: none; color: white;}
+
+a p{transition-timing-function: ease; 
+    transition-property: all; transition: 1s; }
+a:hover {color:  #11bbb5;}
+
+a p:hover {color:  #11bbb5;transform:scale(1.2, 1.2); }
+
+.ola {position: absolute;
+bottom: 0%;
+width: 100%;overflow: hidden; 
+}
+
+.espaciado {padding-left: 25% ; padding-right: 25%;}
+
+
+.seccion1 {height:max-content; }
+
+.contenedor2 {background:   #11bbb5;;width: 80%; height: 600px;margin: 5%;}
+.contenedor3 {background:   #11bbb5;;width: 80%; height: 400px;margin: 5%;}
+.videogrande {position: absolute; margin-left: 50%;width: 500px; height: 500px;}
+.videochico {position: absolute;width: 200px; height: 200px; margin-left: 50%;margin-bottom: -5%;}
+
+.titulogrande {width: 50%;}
+.titulochiquito {width: 100%;}
+
+.textox {text-align: justify;padding: 3%;}
+.boton  {background: pink;width: fit-content;
+    padding-top: 1%;padding-bottom: 1% ;padding-right: 1.5%; padding-left: 1.5%; 
+    margin-left: 15%;  text-decoration: none;position:absolute;}
+.rectangulo {border-style: solid; border-width:thin;border-color: black; background: none; position: absolute;
+     width: 9%;padding: 2%;margin-top:1%; margin-left: 16.5%;transition-property: all; transition: 1s;}
+.rectangulo:hover {transform: translatex(-20px);; transition: 2s;}
+
+.boton2  {background: pink;width: fit-content;text-align: center; margin: auto; }
+
+
+.footer {background: #11bbb5;}
+
+
+
+
+.cajahistoria {background: white; height: 500px;}
+
+.infohistoria {background-image:url(../Pagina\ Final/imageneshistoria/section-image-2.jpg);height:850px}
+
+
+
+.headerpelicula{background-image: url(../Pagina\ Final/imagenesmipelicula/header.jpg);
+    background-position:center center ;
+    background-size: cover;
+    height: 400px}
+
+
+
+.contmipelicula {background-image: url(../Pagina\ Final/imagenesmipelicula/header2.jpg);
+    background-position:center center ;
+    background-size: cover;
+    height: 450px;
+   }
+
+   .contmipelic{transform: scale(105%);transition: 1s;} 
+
+   
+.videomipelicula { background-image: url(imagenesmipelicula/fondovideo.jpg);
+    height: 400px;
+    background-position:center center ;
+    background-size: cover;
+overflow: hidden;}
+
+.fondotexto {background:#11bbb552 ; ; border-radius: 5%; padding: 4%;}    
+
+.bi-play-circle {margin-top: 50%; color: white; font-size: 50px; margin-left: 190%;transition-property: all; transition: 1s;}
+.bi-play-circle:hover { transform: scale(110%);transition: 1s; color: pink;}
+
+
+
+
+.headercursos { position: relative;
+    background-image: url(imagenescursos/headercursos.jpg);
+    background-position:center ;
+    background-size: cover;
+    height: 450px;}
+
+
+.titulocursos {font-size: 60px;}
+
+.card { overflow: hidden;}    
+.card h5 {text-align: center; color: cornflowerblue; font-weight: bold; margin-top: 2%;}  
+.card p {font-weight: lighter; color: rgba(128, 128, 128, 0.795);text-align: center;} 
+.card-img-top {transition-property: all; transition: 1s; }
+.card-img-top:hover {transform: scale(120%);transition: 1s;overflow: hidden;}
+
+.bg-1{ 
+   height:100%;
+   margin-top: 5%;
+   margin-bottom: 5%;
+   text-align: center;
+   
+    }
+  
+ .t-stroke {
+    color: transparent;
+ -moz-text-stroke-width: 2px;
+ -webkit-text-stroke-width: 2px;
+ -moz-text-stroke-color: #000000;
+ -webkit-text-stroke-color: #11bbb5;}
+ .t-shadow {
+      text-shadow: 7px 7px pink;
+    }
+    
+
+
+
+.headerfundacion {   position: relative;
+    background-image: url(imagenesfundacion/foto2.jpg);
+    background-position:center center ;
+    background-size:cover;
+    height: 400px;;}  
+ 
+
+
+
+
+.btn span {background: pink; color: white; transition-timing-function: ease; 
+    transition-property: all; transition: 1s;}
+    .btn span:hover {color:  #11bbb5;transform:scale(1.2, 1.2);}   
+
+    .bodyfundacion {background-color: white;font-family:'oswald' , sans-serif;}
+    .donapubli {background: #11bbb5;}
+   
+
+    .headercontacto {   position: relative;
+        background-image: url(imagenescontacto/headercontacto.jpg);
+        background-position:center center ;
+        background-size:auto;
+        height: 400px;;}  
+     
+
+
+
+
