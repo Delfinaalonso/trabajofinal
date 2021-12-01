@@ -70,14 +70,14 @@ width: 100%;overflow: hidden;
 
 
 
-.headerpelicula{background-image: url(../Pagina\ Final/imagenesmipelicula/header.jpg);
+.headerpelicula{background-image: url(../imagenesmipelicula/header.jpg);
     background-position:center center ;
     background-size: cover;
     height: 400px}
 
 
 
-.contmipelicula {background-image: url(../Pagina\ Final/imagenesmipelicula/header2.jpg);
+.contmipelicula {background-image: url(../imagenesmipelicula/header2.jpg);
     background-position:center center ;
     background-size: cover;
     height: 450px;
