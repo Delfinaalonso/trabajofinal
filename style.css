@@ -85,6 +85,16 @@ width: 100%;overflow: hidden;
 
    .contmipelic{transform: scale(105%);transition: 1s;} 
 
+
+   .contmipeliculacelular {background-image: url(imagenesmipelicula/header2.jpg);
+    background-position:center center ;
+    background-size: cover;
+    height: 300px;
+    width: 70%;
+   }
+
+   .contmipeliculacelular{transform: scale(105%);transition: 1s;}    
+
    
 .videomipelicula { background-image: url(imagenesmipelicula/fondovideo.jpg);
     height: 400px;
