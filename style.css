@@ -70,30 +70,12 @@ width: 100%;overflow: hidden;
 
 
 
-.headerpelicula{background-image: url(imagenesmipelicula/header.jpg);
+.headerpelicula{background-image: url(imagenesmipelicula/header3.jpg);
     background-position:center center ;
     background-size: cover;
     height: 300px;}
 
-
-
-.contmipela {background-image: url(imagenesmipelicula/header2.jpg);
-    background-position:center center ;
-    background-size: cover;
-    height: 450px;
-   }
-
-   .contmipelicula{transform: scale(105%);transition: 1s;} 
-
-
-   .contmipeliculalar {background-image: url(imagenesmipelicula/header2.jpg);
-    background-position:center center ;
-    background-size: cover;
-    height: 300px;
-    width: 70%;
-   }
-
-   .contmipeliculacelular{transform: scale(105%);transition: 1s;}    
+   .contmipelicula:hover{transform: scale(105%);transition: 1s;} 
 
    
 .videomipelicula { background-image: url(imagenesmipelicula/fondovideo.jpg);
@@ -102,10 +84,8 @@ width: 100%;overflow: hidden;
     background-size: cover;
 overflow: hidden;}
 
-.fondotexto {background:#11bbb552 ; ; border-radius: 5%; padding: 4%;}    
+.fondotexto {background:#11bbb552  ; border-radius: 5%; padding: 4%;}    
 
-.bi-play-circle { color: white; font-size: 50px;;transition-property: all; transition: 1s;}
-.bi-play-circle:hover { transform: scale(110%);transition: 1s; color: pink;}
 
 
 
