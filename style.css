@@ -73,7 +73,7 @@ width: 100%;overflow: hidden;
 .headerpelicula{background-image: url(imagenesmipelicula/header.jpg);
     background-position:center center ;
     background-size: cover;
-    height: 400px}
+    height: 300px;}
 
 
 
@@ -104,7 +104,7 @@ overflow: hidden;}
 
 .fondotexto {background:#11bbb552 ; ; border-radius: 5%; padding: 4%;}    
 
-.bi-play-circle {margin-top: 50%; color: white; font-size: 50px; margin-left: 190%;transition-property: all; transition: 1s;}
+.bi-play-circle { color: white; font-size: 50px;;transition-property: all; transition: 1s;}
 .bi-play-circle:hover { transform: scale(110%);transition: 1s; color: pink;}
 
 
