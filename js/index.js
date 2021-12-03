@@ -55,4 +55,22 @@ window.sr = ScrollReveal();
     origin: 'bottom',
     distance: '-100px'
   });
-  
+
+  sr.reveal('.cont-contacto', {
+    duration: 4000,
+    origin: 'rigth',
+    distance: '-100px'
+  });
+
+  sr.reveal('.fundacionanimacion1', {
+    duration: 4000,
+    origin: 'rigth',
+    distance: '-100px'
+  });
+  sr.reveal('.fundacionanimacion2', {
+    duration: 4000,
+    origin: 'left',
+    distance: '-100px'
+  });
+
+ 
