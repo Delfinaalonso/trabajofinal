@@ -1,0 +1,17 @@
+ .cortinamar {position: absolute;
+top: -135%;
+animation-name: desplazamientoola;
+animation-duration: 30s;}
+.cortinamar img{width: 1350px;}
+
+@keyframes desplazamientoola {
+
+    0% {
+        transform: translateY(0)}
+
+    100% {
+        transform: translateY (1500px);
+    }
+}
+
+
