@@ -34,7 +34,7 @@
                   
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon bg-3"></span>
                   </button>    
 
         <div class="collapse navbar-collapse " id="navbarNav">
@@ -57,10 +57,17 @@
 </div>
 </nav>
 </div>
+
+<div class="ola" style="height: 150px; overflow: hidden;" >
+  <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+  <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" 
+  style="stroke: none; fill: blanchedalmond;">
+
+  </path></svg></div>
 </header>
 
 
-<section class="container-fluid">
+<section class="container-fluid mb-5">
 
   <div class="container w-50 my-5 text-center">
 <h2 class="fw-bold fs-1 mb-4 bg2">Ponete en contacto</h2>
@@ -74,39 +81,84 @@
 
 
 
-<div class="container">
-<div class="form-floating">
-    <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
-      <option selected>Razon de la Consulta</option>
-      <option value="1">Consulta de Prensa</option>
-      <option value="2">Consulta sobre Asociacion Comercial</option>
-      <option value="4">¿Algo que quieras saber de mi? Deja tu comentario al final</option>
-       <option value="5">¿Necesitas algo particular?Deja tu comentario al final </option>
-       <option value="6">Necesito soporte tecnico</option>
-     
-    </select>
-    <label for="floatingSelect">Consultas</label>
-  </div>
-
-  <div class="row g-2">
-    <div class="col-md">
-      <div class="form-floating">
-        <input type="email" class="form-control" id="floatingInputGrid" placeholder="Datos" value="Nombre y Apellido">
-        <label for="floatingInputGrid">Datos</label>
-      </div>
-      <div class="col-md">
-        <div class="form-floating">
-          <input type="email" class="form-control" id="floatingInputGrid" placeholder="name@example.com" value="mdo@example.com">
-          <label for="floatingInputGrid">Email </label>
-        </div>
+<div class="container cont-contacto">
+ 
+  <form class="row g-3  " method="post" name="contacto" id ="contacto">
+    <div class="col-md-6">
+      <label for="inputEmail4" class="form-label">Nombre</label>
+      <input type="text" class="form-control" name="nombre" id="inputEmail4" required>
     </div>
+    <div class="col-md-6">
+      <label for="inputPassword4" class="form-label">Apellido</label>
+      <input type="text" class="form-control" name="apellido" id="inputPassword4" required>
+    </div>
+    <div class="col-12">
+      <label for="inputAddress" class="form-label">Email</label>
+      <input type="email" class="form-control" name="email" id="inputAddress" placeholder="@ejemplo" required>
+    </div>
+    
+    <div class="col-md-6">
+      <label for="inputCity" class="form-label">Pais</label>
+      <input type="text" class="form-control" name="pais" id="inputCity" required>
+    </div>
+    <div class="col-md-6">
+      <label for="inputState"  class="form-label">Consultas</label>
+      <select id="inputState" name="consultas" class="form-select">
+        <option selected>Razon de la Conslta</option>
+        <option>Consulta de prensa</option>
+        <option>Consulta sobre asociacion comercial</option>
+        <option>¿Algo que quieras saber de mi? Deja tu comentario al final</option>
+        <option>¿Necesitas algo particula? Deja tu comentario al final</option>
+        <option>Necesito soporte tecnico</option>
+      </select>
+    </div>
+    
+    <div class="col-12">
+      <div class="form-floating">
+        <textarea class="form-control" name="comentarios" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+        <label for="floatingTextarea">Comments</label>
+      </div>
+    </div>
+   
+    <div class="col-12 botonform bg-2 text-center mx-4">
+      <button type="submit" class="btn btn-primary mx-4">Enviar</button>
+    </div>
+  </form>
 
 
-  <div class="form-floating">
-    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
-    <label for="floatingTextarea">Contanos sobre tu solicitud</label>
-  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </section>
 
 
