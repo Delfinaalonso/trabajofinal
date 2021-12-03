@@ -1,186 +1,128 @@
-*{padding: 0; margin: 0;} 
-
-html {scroll-behavior: smooth;   }
-
-.header {
-    position: relative;
-    background-image: url(imagenes/section-image-4.jpg);
+*{padding: 0; margin: 0;}
+ body {background-image:url(arena.jpg);  
+    background-repeat: no-repeat;
     background-position:center center ;
+    background-attachment: fixed;
     background-size: cover;
-    height: 430px;
-     }
-
-body { background-color: blanchedalmond;font-family:'oswald' , sans-serif;
-    }
-
-.bg1 {color:#fff}
-.bg2 {color:   #11bbb5;;}
-.bg3 {color: pink;}
-.container-fluid {padding: 0; margin: 0;}
-
-.navbar-light .navbar-nav .nav-link {color: white;transition-timing-function: ease; 
-    transition-property: all; transition: 1s; font-weight: bold;}
-.navbar-light .navbar-nav .nav-link:hover {color:  #11bbb5;transform: scale(1.2, 1.2);}
-
-.navbar-light .navbar-toggler {border: none; color: white;}
-
-a p{transition-timing-function: ease; 
-    transition-property: all; transition: 1s; }
-a:hover {color:  #11bbb5;}
-
-a p:hover {color:  #11bbb5;transform:scale(1.2, 1.2); }
-
-.ola {position: absolute;
-bottom: 0%;
-width: 100%;overflow: hidden; 
-}
-
-.espaciado {padding-left: 25% ; padding-right: 25%;}
-
-
-.seccion1 {height:max-content; }
-
-.contenedor2 {background:   #11bbb5;;width: 80%; height: 600px;margin: 5%;}
-.contenedor3 {background:   #11bbb5;;width: 80%; height: 400px;margin: 5%;}
-.videogrande {position: absolute; margin-left: 50%;width: 500px; height: 500px;}
-.videochico {position: absolute;width: 200px; height: 200px; margin-left: 50%;margin-bottom: -5%;}
-
-.titulogrande {width: 50%;}
-.titulochiquito {width: 100%;}
-
-.textox {text-align: justify;padding: 3%;}
-.boton  {background: pink;width: fit-content;
-    padding-top: 1%;padding-bottom: 1% ;padding-right: 1.5%; padding-left: 1.5%; 
-    margin-left: 15%;  text-decoration: none;position:absolute;}
-.rectangulo {border-style: solid; border-width:thin;border-color: black; background: none; position: absolute;
-     width: 9%;padding: 2%;margin-top:1%; margin-left: 16.5%;transition-property: all; transition: 1s;}
-.rectangulo:hover {transform: translatex(-20px);; transition: 2s;}
-
-.boton2  {background: pink;width: fit-content;text-align: center; margin: auto; }
-
-
-.footer {background: #11bbb5;}
-
-
-
-
-.cajahistoria {background: white; height: 500px;}
-
-.infohistoria {background-image:url(../Pagina\ Final/imageneshistoria/section-image-2.jpg);height:850px}
-
-
-
-.headerpelicula{background-image: url(imagenesmipelicula/header3.jpg);
-    background-position:center center ;
-    background-size: cover;
-    height: 300px;}
-
-
-   .contmipelicula {transition-property: all; transition: 1s;} 
-   .contmipelicula:hover{transform: scale(105%);transition: 1s;} 
-
-   
-.videomipelicula { background-image: url(imagenesmipelicula/fondovideo.jpg);
-    height: 400px;
-    background-position:center center ;
-    background-size: cover;
+    font-family: 'Oswald', sans-serif;
 overflow: hidden;}
 
-.fondotexto {background:#11bbb552  ; border-radius: 5%; padding: 4%;}    
+
+.contenedor {animation-name: contenedor;
+    animation-duration:  9s;}
+
+.cortinaola {position: absolute;
+    top: -210%;
+    animation-name: desplazamientoola;
+    animation-duration: 5s;
+    animation-direction: alternate;
+    
+}
+
+.cortinaola img{width: 1365px;}    
+
+.peces div {display: flex; position: absolute; }
+.peces img {width: 100%;}
 
 
 
 
+.pez1 img {animation-name: pecesizquierda;
+    animation-duration:  0.5s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+animation-timing-function: ease-in;
+}
 
-.headercursos { position: relative;
-    background-image: url(imagenescursos/headercursos.jpg);
-    background-position:center ;
-    background-size: cover;
-    height: 450px;}
+.pez2 img {animation-name: pecesizquierda;
+    animation-duration:  0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+    
+  }
+
+.pez4 img {animation-name: pecesizquierda;
+    animation-duration:  0.5s;animation-iteration-count: infinite;
+    animation-direction: alternate;
+   }
+
+.pez5 img  {animation-name: pecesizquierda;
+animation-duration:  0.5s;animation-iteration-count: infinite;
+animation-direction: alternate;}
+
+.pez6 img { animation-name: pecesizquierda; 
+    animation-duration:  0.5s;animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+    
+   }    
 
 
-.titulocursos {font-size: 60px;  
-    animation-name: desplazamientotitulo;
-    animation-duration: 4s;
-    animation-direction:alternate;
-    overflow: hidden;
+.pez6 {left: 17%; top: 20%; width: 13%;}
+
+.pez5  {top: 40%;  width: 13%; left: 7%;} 
+
+.pez2 {top: 65%; left: 15%; width: 13%;}
+
+.pez4 {left: 72%;top: 28%;width: 10%;}
+
+.pez1 {left: 75%; top: 65%;width: 17%;}
+
+.texto p {text-align: center; font-size: 30px; color: cornflowerblue;}
+
+.texto{ position: absolute; top: 32%; left: 23%;}
+
+
+.botones { position: absolute; top: 72%; left: 37%;display: flex; 
+    padding: 2%;
 }
 
 
 
-.card { overflow: hidden;}    
-.card h5 {text-align: center; color: cornflowerblue; font-weight: bold; margin-top: 2%;}  
-.card p {font-weight: lighter; color: rgba(128, 128, 128, 0.795);text-align: center;} 
-.card-img-top {transition-property: all; transition: 1s; }
-.card-img-top:hover {transform: scale(120%);transition: 1s;overflow: hidden;}
+.boton1 {padding: 2%;width: 150px; background-color: coral; margin-right: 3%;  }
+.boton1 p:hover {color: indianred; transform: scale(1.2, 1.2);}
+.boton2 {padding: 2%;width: 150px; background-color:indianred;  }
+.boton2 p:hover {color: coral; transform: scale(1.2, 1.2);}
+.botones p {text-align: center; color:white;}
 
-.bg-1{ 
-   height:100%;
-   margin-top: 5%;
-   margin-bottom: 5%;
-   text-align: center;
-   
-    }
-  
- .t-stroke {
-    color: transparent;
- -moz-text-stroke-width: 2px;
- -webkit-text-stroke-width: 2px;
- -moz-text-stroke-color: #000000;
- -webkit-text-stroke-color: #11bbb5;}
- .t-shadow {
-      text-shadow: 7px 7px pink;
+@keyframes pecesizquierda {
+
+        0% {
+            transform:rotate(0turn)}
+
+        100% {
+            transform: rotate(0.1turn);
+            
+        }   
     }
     
 
 
+@keyframes desplazamientoola {
 
-.headerfundacion {   position: relative;
-    background-image: url(imagenesfundacion/foto2.jpg);
-    background-position:center center ;
-    background-size:cover;
-    height: 400px;;}  
-
-.bodyfundacion {background-color: white;font-family:'oswald' , sans-serif;}
-    .donapubli {background:url(imagenesfundacion/img.jpg); 
-        background-position:top;
-        background-size:auto;
-        height: 200px;;
-         font-family: 'Birthstone', cursive;;}
-   
-.text-fundacion {background-color: blanchedalmond; border-radius: 10%; padding-top: 4;}
+    0% {
+       top:-210px;}
 
 
-.btn span {background: pink; color: white; transition-timing-function: ease; 
-    transition-property: all; transition: 1s;}
-    .btn span:hover {color:  #11bbb5;transform:scale(1.2, 1.2);}   
+    50% {  top: 5px
 
-    
+    }
+       
 
-    .headercontacto {   position: relative;
-        background-image: url(imagenescontacto/headercontacto.jpg);
-        background-position:center center ;
-        background-size:auto;
-        height: 400px;;}  
-     
-        .btn-primary { color: pink; background-color: #11bbb5; padding: 1%; 
-            padding-left: 5%;padding-right: 5%; font-weight: bold;border: none;transition-timing-function: ease; 
-            transition-property: all; transition: 1s;}
-        .btn-primary:hover  {color:  pink;transform:scale(1.2, 1.2); background-color: aquamarine;}    
+    100% {
+        top: -810px;
+    }
+}       
+
+@keyframes contenedor {
+
+    0% {
+        opacity:0;}
 
 
 
-        @keyframes desplazamientotitulo {
-
-            0% {
-                transform: translateX(-50%);
-             }
-        
-
-             50% {transform: translateX(25%)}
-        
-
-            100% {
-                transform: translateX(0%);
-            }
-        }       
+    100% {
+        opacity:100% ;
+    }
+}
