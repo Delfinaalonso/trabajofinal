@@ -75,6 +75,8 @@ width: 100%;overflow: hidden;
     background-size: cover;
     height: 300px;}
 
+
+   .contmipelicula {transition-property: all; transition: 1s;} 
    .contmipelicula:hover{transform: scale(105%);transition: 1s;} 
 
    
@@ -97,7 +99,14 @@ overflow: hidden;}
     height: 450px;}
 
 
-.titulocursos {font-size: 60px;}
+.titulocursos {font-size: 60px;  
+    animation-name: desplazamientotitulo;
+    animation-duration: 4s;
+    animation-direction:alternate;
+    overflow: hidden;
+}
+
+
 
 .card { overflow: hidden;}    
 .card h5 {text-align: center; color: cornflowerblue; font-weight: bold; margin-top: 2%;}  
@@ -131,18 +140,22 @@ overflow: hidden;}
     background-position:center center ;
     background-size:cover;
     height: 400px;;}  
- 
 
-
+.bodyfundacion {background-color: white;font-family:'oswald' , sans-serif;}
+    .donapubli {background:url(imagenesfundacion/img.jpg); 
+        background-position:top;
+        background-size:auto;
+        height: 200px;;
+         font-family: 'Birthstone', cursive;;}
+   
+.text-fundacion {background-color: blanchedalmond; border-radius: 10%; padding-top: 4;}
 
 
 .btn span {background: pink; color: white; transition-timing-function: ease; 
     transition-property: all; transition: 1s;}
     .btn span:hover {color:  #11bbb5;transform:scale(1.2, 1.2);}   
 
-    .bodyfundacion {background-color: white;font-family:'oswald' , sans-serif;}
-    .donapubli {background: #11bbb5;}
-   
+    
 
     .headercontacto {   position: relative;
         background-image: url(imagenescontacto/headercontacto.jpg);
@@ -150,7 +163,24 @@ overflow: hidden;}
         background-size:auto;
         height: 400px;;}  
      
+        .btn-primary { color: pink; background-color: #11bbb5; padding: 1%; 
+            padding-left: 5%;padding-right: 5%; font-weight: bold;border: none;transition-timing-function: ease; 
+            transition-property: all; transition: 1s;}
+        .btn-primary:hover  {color:  pink;transform:scale(1.2, 1.2); background-color: aquamarine;}    
 
 
 
+        @keyframes desplazamientotitulo {
 
+            0% {
+                transform: translateX(-50%);
+             }
+        
+
+             50% {transform: translateX(25%)}
+        
+
+            100% {
+                transform: translateX(0%);
+            }
+        }       
