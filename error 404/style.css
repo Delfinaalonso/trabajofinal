@@ -80,7 +80,8 @@ animation-direction: alternate;}
 
 
 
-.boton1 {padding: 2%;width: 150px; background-color: coral; margin-right: 3%;  }
+.boton1 {padding: 2%;width: 150px; background-color: coral; margin-right: 3%;   text-decoration: none;}
+.boton1 a {text-decoration: none;}
 .boton1 p:hover {color: indianred; transform: scale(1.2, 1.2);}
 .boton2 {padding: 2%;width: 150px; background-color:indianred;  }
 .boton2 p:hover {color: coral; transform: scale(1.2, 1.2);}
