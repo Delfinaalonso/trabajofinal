@@ -114,6 +114,10 @@ overflow: hidden;}
 .card-img-top {transition-property: all; transition: 1s; }
 .card-img-top:hover {transform: scale(120%);transition: 1s;overflow: hidden;}
 
+.botoncursos {background-color: pink; color: white; font-weight: bold; text-align: center; padding-left: 3% ; padding-right: 3%;  padding: 2%;
+    border-radius: 10%; width: fit-content; margin-left: 35%;}
+.botoncursos a {text-align: center;}
+
 .bg-1{ 
    height:100%;
    margin-top: 5%;
